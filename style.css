@@ -1,0 +1,15 @@
+/*table changes*/
+
+th:first-of-type {font-style: italic; font-weight: normal;}
+td:first-of-type {color: red;}
+td:nth-child(4) {color: blue;}
+table {border: 5px solid black}
+caption {caption-side: bottom;}
+table thead th {background-color: white}
+table tfoot th {background-color: white; font-style: normal; font-weight: normal;}
+table tr:nth-child(odd) {background-color: LightGreen}
+table tr:nth-child(even) {background-color: LightBlue}
+
+
+/*this sets the dt and dl */
+dt:hover + dd { background-color: purple}
