@@ -1,12 +1,12 @@
 /*table changes*/
 
-th:first-of-type {font-style: italic; font-weight: normal;}
+tbody th:first-of-type {font-style: italic; font-weight: normal;}
 td:first-of-type {color: red;}
 td:nth-child(4) {color: blue;}
-table {border: 5px solid black}
+table {border: 5px double black}
 caption {caption-side: bottom;}
-table thead th {background-color: white}
-table tfoot th {background-color: white; font-style: normal; font-weight: normal;}
+table thead th {background-color: white; border: 3px solid black}
+table tfoot th {background-color: white; font-style: normal; font-weight: normal; border: 3px solid black}
 table tr:nth-child(odd) {background-color: LightGreen}
 table tr:nth-child(even) {background-color: LightBlue}
 
